@@ -1,26 +1,61 @@
-# CDCgov GitHub Organization Open Source Project Template
+# Understanding the Reach and Impact of the Centers for Disease Control and Prevention’s Women’s Health Research, 2018–2023 (working)
+## Summary:
+Understanding the public health impact of women’s health research is crucial for improving health outcomes and guiding future research priorities. Bibliometric analysis offers a unique suite of tools to identify opportunities to increase impact and measure the dissemination of women’s health research. 
 
-**Template for clearance: This project serves as a template to aid projects in starting up and moving through clearance procedures. To start, create a new repository and implement the required [open practices](open_practices.md), train on and agree to adhere to the organization's [rules of behavior](rules_of_behavior.md), and [send a request through the create repo form](https://forms.office.com/Pages/ResponsePage.aspx?id=aQjnnNtg_USr6NJ2cHf8j44WSiOI6uNOvdWse4I-C2NUNk43NzMwODJTRzA4NFpCUk1RRU83RTFNVi4u) using language from this template as a Guide.**
+
+## Methodology:
+
+
+
+
+## Repo Explained:
+*For data visualizations and additional supplemental infomration (search string and supplemental file description) please refer to the publication.* 
+```
+womens_health_publication_impact/
+├── data/
+│   ├── CDC_WONDER_4_YEAR_TOTAL.xlsx                                                      # 
+│   └── NVSS_2018_2021_Sex_Stratified_NCHS_Grouping_AgeAdjusted.xlsx/                      
+├── code/
+│   ├── 1_Initial_Relative_Mortality_Analysis.ipynb
+│   ├── 2_Creation_of_Supplemental_Table.ipynb
+│   ├── 3_Merge_Indicator_Information_to_SciClips.ipynb
+│   ├── 4_Creating_ Bibliometric_Indicator_Table.ipynb                                                       
+│   └── 5_Combined_Line_and_Dot_Plot.ipynb                                                    
+├── results/
+│     ├──SupplementalDataTable.xlsx  
+      ├──RelativeMortalityInitialOutput.xlsx  
+      ├──202501_Bibliometric Indicator Table.xlsx                           
+│   └── Bibliometrics/
+      └── Altmetric Data Pull/
+        ├──Altmetric_20241216_2018_2023_SciClips_Publications_SciClips.xlsx  
+        ├──Altmetric_20241216_2018_2023_Rheumatic_Publications_SciClips.xlsx  
+        ├──Altmetric_20241216_2018_2023_Kidney_Publications_SciClips
+        ├──Altmetric_20241216_2018_2023_BreastCancer_Publications_SciClips.xlsx 
+        ├──Altmetric_20241216_2018_2023_Alzheimers_Publications_SciClips.xlsx  
+      └── BMJ Data Pull/
+        ├──BMJ_20241216_2018_2020_SciClips_Publications_SciClips.xlsx  
+        ├──BMJ_20241216_2018_2020_Rheumatic_Publications_SciClips.xlsx  
+        ├──BMJ_20241216_2018_2020_Kidney_Publications_SciClips
+        ├──BMJ_20241216_2018_2020_BreastCancer_Publications_SciClips.xlsx 
+        ├──BMJ_20241216_2018_2020_Alzheimers_Publications_SciClips.xlsx  
+      └── SciClips Publications/
+        ├──2018_2023_SciClips_Publications_SciClips.xlsx  
+        ├──2018_2023_Rheumatic_Publications_SciClips.xlsx  
+        ├──2018_2023_Kidney_Publications_SciClips.xlsx  
+        ├──2018_2023_BreastCancer_Publications_SciClips.xlsx  
+        ├──2018_2023_Alzheimer_Publications_SciClips.xlsx  
+      └── SciClips Publications plus Indicators/
+        ├──2018_2023_SciClips_Publications_SciClips_Indicators.xlsx   
+        ├──2018_2023_Rheumatic_Publications_SciClips_Indicators.xlsx   
+        ├──2018_2023_Kidney_Publications_SciClips_Indicators.xlsx   
+        ├──2018_2023_BreastCancer_Publications_SciClips_Indicators.xlsx 
+        ├──2018_2023_Alzheimer_Publications_SciClips_Indicators.xlsx 
+└── README.md
+```
+
 
 **General disclaimer** This repository was created for use by CDC programs to collaborate on public health related projects in support of the [CDC mission](https://www.cdc.gov/about/cdc/#cdc_about_cio_mission-our-mission).  GitHub is not hosted by the CDC, but is a third party website used by CDC and its partners to share information and collaborate on software. CDC use of GitHub does not imply an endorsement of any one particular service, product, or enterprise. 
 
-## Access Request, Repo Creation Request
-
-* [CDC GitHub Open Project Request Form](https://forms.office.com/Pages/ResponsePage.aspx?id=aQjnnNtg_USr6NJ2cHf8j44WSiOI6uNOvdWse4I-C2NUNk43NzMwODJTRzA4NFpCUk1RRU83RTFNVi4u) _[Requires a CDC Office365 login, if you do not have a CDC Office365 please ask a friend who does to submit the request on your behalf. If you're looking for access to the CDCEnt private organization, please use the [GitHub Enterprise Cloud Access Request form](https://forms.office.com/Pages/ResponsePage.aspx?id=aQjnnNtg_USr6NJ2cHf8j44WSiOI6uNOvdWse4I-C2NUQjVJVDlKS1c0SlhQSUxLNVBaOEZCNUczVS4u).]_
-
-## Related documents
-
-* [Open Practices](open_practices.md)
-* [Rules of Behavior](rules_of_behavior.md)
-* [Thanks and Acknowledgements](thanks.md)
-* [Disclaimer](DISCLAIMER.md)
-* [Contribution Notice](CONTRIBUTING.md)
-* [Code of Conduct](code-of-conduct.md)
-
-## Overview
-
-Describe the purpose of your project. Add additional sections as necessary to help collaborators and potential collaborators understand and use your project.
-  
 ## Public Domain Standard Notice
 This repository constitutes a work of the United States Government and is not
 subject to domestic copyright protection under 17 USC § 105. This repository is in
