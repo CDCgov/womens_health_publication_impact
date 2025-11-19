@@ -13,7 +13,7 @@ Understanding the public health impact of women’s health research is crucial f
 1. Idenitfy conditions that result in high relative mortality risk for U.S. females using NVSS data queried through CDC WONDER **(Code notebook 1 & 2)**.
 2. Identify CDC-authored publications on conditions with the highest relative mortality risk for U.S. females using CDC Science Clips.
 3. Query media attention, academic citation, and policy citation data from Altmetric and BMJ Impact Analytics.
-4. Merge bibliometric indicator data to relevant publications and calculate media attention, academic citation, and policy citation  indicators **(Code notebook 3 & 4)**. The bibliometric indictators in this analysis are:
+4. Merge bibliometric indicator data to relevant publications and calculate media attention, academic citation, and policy citation  indicators **(Code notebook 3 & 4)**. Only publications from 2018-2020 were calculate policy and academic indicators that these metrics need time to gain citations. The bibliometric indictators in this analysis are:
       - **Percent of publications with media attention**: Assess what proportion of publications on a given topic received any media attention.
       - **Median media attention**: Assess the distribution of media attention for publications on a given topic.
       - **Percent of publications with academic citation**: Assess what proportion of publications on a given topic received any academic citation.
@@ -41,19 +41,19 @@ womens_health_publication_impact/
 │     ├──SupplementalDataTable.xlsx                                                       # Output from code notebook 2
 │      ├──202501_Bibliometric Indicator Table.xlsx                                        # Output from code notebook 4
 │   └── Bibliometrics/                                                                    # Publications and data used to cacluate bibliometric indicators
-│      └── Altmetric Data Pull/                                                           # 2018-2023 indicator data pulled on 12/16 (used for all indicators)
+│      └── Altmetric Data Pull/                                                           # 2018-2023 indicator data pulled on 12/16/24 (used for all indicators)
 │        ├──Altmetric_20241216_2018_2023_SciClips_Publications_SciClips.xlsx  
 │        ├──Altmetric_20241216_2018_2023_Rheumatic_Publications_SciClips.xlsx  
 │        ├──Altmetric_20241216_2018_2023_Kidney_Publications_SciClips
 │        ├──Altmetric_20241216_2018_2023_BreastCancer_Publications_SciClips.xlsx 
 │        ├──Altmetric_20241216_2018_2023_Alzheimers_Publications_SciClips.xlsx  
-│      └── BMJ Data Pull/                                                                 # 2018-2020 indicator data pulled on 12/16 ( only used for policy indicator)
+│      └── BMJ Data Pull/                                                                 # 2018-2020 indicator data pulled on 12/16/24 (only used for policy indicator)
 │        ├──BMJ_20241216_2018_2020_SciClips_Publications_SciClips.xlsx  
 │        ├──BMJ_20241216_2018_2020_Rheumatic_Publications_SciClips.xlsx  
 │        ├──BMJ_20241216_2018_2020_Kidney_Publications_SciClips
 │        ├──BMJ_20241216_2018_2020_BreastCancer_Publications_SciClips.xlsx 
 │        ├──BMJ_20241216_2018_2020_Alzheimers_Publications_SciClips.xlsx  
-│      └── SciClips Publications/                                                         # 2018-2023 publications on conditions of interest
+│      └── SciClips Publications/                                                         # 2018-2023 publications on conditions of interest. This data was pulled on 9/24/2024
 │        ├──2018_2023_SciClips_Publications_SciClips.xlsx  
 │        ├──2018_2023_Rheumatic_Publications_SciClips.xlsx  
 │        ├──2018_2023_Kidney_Publications_SciClips.xlsx  
