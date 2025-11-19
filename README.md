@@ -1,4 +1,4 @@
-# Understanding the Reach and Impact of the Centers for Disease Control and Prevention’s Women’s Health Research, 2018–2023 (working)
+# Understanding the Reach and Impact of the Centers for Disease Control and Prevention’s Women’s Health Research, 2018–2023
 ## Summary:
 Understanding the public health impact of women’s health research is crucial for improving health outcomes and guiding future research priorities. Bibliometric analysis offers a unique suite of tools to identify opportunities to increase impact and measure the dissemination of women’s health research. In the following analysis we aim to assess 5 indicators measuring media attention, policy citation, and academic ciation for publications encompassing research on breast cancer, acute rheumatic fever and chronic rheumatic heart diseases (ARF-CRHD), infections of the kidney, and Alzheimer’s disease. Our analysis demonstrates that CDC’s publications on these conditions did not demonstrate a gap in media attention, academic citations, and policy citations compared with other agency publications. These results underscore the agency’s effectiveness in disseminating its research on these topics and informs strategic decisions for those with a vested interst in disseminating women's health research. For more infomration on this analysis please visit our publication: [Dunkley, Victoria E., Joy Ortega, Martha Knuth, Christie Kim, Mary G. Reynolds, and Bao-Ping Zhu. "Understanding the Reach and Impact of the Centers for Disease Control and Prevention’s Women’s Health Research, 2018–2023." Journal of Women's Health.https://doi.org/10.1177/15409996251379401](https://www.liebertpub.com/doi/abs/10.1177/15409996251379401).
 
@@ -70,7 +70,7 @@ womens_health_publication_impact/
 
 **General disclaimer** This repository was created for use by CDC programs to collaborate on public health related projects in support of the [CDC mission](https://www.cdc.gov/about/cdc/#cdc_about_cio_mission-our-mission).  GitHub is not hosted by the CDC, but is a third party website used by CDC and its partners to share information and collaborate on software. CDC use of GitHub does not imply an endorsement of any one particular service, product, or enterprise. 
 
-**Additional disclaimer** Generative AI  was used to generate and refine code for this analysis. 
+**Additional disclaimer** Generative AI  was used to generate and refine some of the code for this analysis. 
 
 ## Public Domain Standard Notice
 This repository constitutes a work of the United States Government and is not
